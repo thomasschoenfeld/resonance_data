@@ -1,0 +1,67 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red57\green192\blue38;\red0\green0\blue0;\red86\green32\blue244;
+}
+{\*\expandedcolortbl;;\cssrgb\c25706\c77963\c19557;\csgray\c0;\cssrgb\c41681\c25958\c96648;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww30860\viewh17800\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b\fs28 \cf2 \CocoaLigature0 From Voron TAP toolhead to custom toolhead with Beaacon3D\
+\
+\
+pi@raspberrypi
+\f1\b0 \cf3 :
+\f0\b \cf4 ~ $
+\f1\b0 \cf3  ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_x.png\
+Fitted shaper 'zv' frequency = 108.0 Hz (vibrations = 29.5%, smoothing ~= 0.019) To avoid too much smoothing with 'zv', suggested max_accel <= 45500 mm/sec^2\
+Fitted shaper 'mzv' frequency = 69.4 Hz (vibrations = 1.5%, smoothing ~= 0.044) To avoid too much smoothing with 'mzv', suggested max_accel <= 14200 mm/sec^2\
+Fitted shaper 'ei' frequency = 88.6 Hz (vibrations = 4.9%, smoothing ~= 0.042) To avoid too much smoothing with 'ei', suggested max_accel <= 14600 mm/sec^2\
+Fitted shaper '2hump_ei' frequency = 99.6 Hz (vibrations = 0.0%, smoothing ~= 0.056) To avoid too much smoothing with '2hump_ei', suggested max_accel <= 11000 mm/sec^2\
+Fitted shaper '3hump_ei' frequency = 120.0 Hz (vibrations = 0.0%, smoothing ~= 0.058) To avoid too much smoothing with '3hump_ei', suggested max_accel <= 10500 mm/sec^2\
+Recommended shaper is mzv @ 69.4 Hz\
+
+\f0\b \cf2 pi@raspberrypi
+\f1\b0 \cf3 :
+\f0\b \cf4 ~ $
+\f1\b0 \cf3  ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png\
+Fitted shaper 'zv' frequency = 73.2 Hz (vibrations = 15.6%, smoothing ~= 0.035) To avoid too much smoothing with 'zv', suggested max_accel <= 20900 mm/sec^2\
+Fitted shaper 'mzv' frequency = 50.8 Hz (vibrations = 2.8%, smoothing ~= 0.079) To avoid too much smoothing with 'mzv', suggested max_accel <= 7600 mm/sec^2\
+Fitted shaper 'ei' frequency = 68.8 Hz (vibrations = 1.9%, smoothing ~= 0.068) To avoid too much smoothing with 'ei', suggested max_accel <= 8800 mm/sec^2\
+Fitted shaper '2hump_ei' frequency = 72.4 Hz (vibrations = 0.0%, smoothing ~= 0.103) To avoid too much smoothing with '2hump_ei', suggested max_accel <= 5800 mm/sec^2\
+Fitted shaper '3hump_ei' frequency = 86.6 Hz (vibrations = 0.0%, smoothing ~= 0.109) To avoid too much smoothing with '3hump_ei', suggested max_accel <= 5500 mm/sec^2\
+Recommended shaper is ei @ 68.8 Hz\
+
+\f0\b \cf2 pi@raspberrypi
+\f1\b0 \cf3 :
+\f0\b \cf4 ~ $
+\f1\b0 \cf3  \
+\
+
+\f0\b \cf2 \'85. bowden attached, one cable secured, tightened the XY belts\'85.\
+pi@raspberrypi
+\f1\b0 \cf3 :
+\f0\b \cf4 ~ $
+\f1\b0 \cf3  ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /tmp/shaper_calibrate_x.png\
+Fitted shaper 'zv' frequency = 83.4 Hz (vibrations = 23.9%, smoothing ~= 0.028) To avoid too much smoothing with 'zv', suggested max_accel <= 27100 mm/sec^2\
+Fitted shaper 'mzv' frequency = 69.0 Hz (vibrations = 0.8%, smoothing ~= 0.044) To avoid too much smoothing with 'mzv', suggested max_accel <= 14000 mm/sec^2\
+Fitted shaper 'ei' frequency = 86.6 Hz (vibrations = 3.5%, smoothing ~= 0.044) To avoid too much smoothing with 'ei', suggested max_accel <= 14000 mm/sec^2\
+Fitted shaper '2hump_ei' frequency = 100.6 Hz (vibrations = 0.0%, smoothing ~= 0.055) To avoid too much smoothing with '2hump_ei', suggested max_accel <= 11300 mm/sec^2\
+Fitted shaper '3hump_ei' frequency = 121.0 Hz (vibrations = 0.0%, smoothing ~= 0.057) To avoid too much smoothing with '3hump_ei', suggested max_accel <= 10700 mm/sec^2\
+Recommended shaper is mzv @ 69.0 Hz\
+
+\f0\b \cf2 pi@raspberrypi
+\f1\b0 \cf3 :
+\f0\b \cf4 ~ $
+\f1\b0 \cf3  ~/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /tmp/shaper_calibrate_y.png\
+Fitted shaper 'zv' frequency = 70.8 Hz (vibrations = 12.0%, smoothing ~= 0.037) To avoid too much smoothing with 'zv', suggested max_accel <= 19500 mm/sec^2\
+Fitted shaper 'mzv' frequency = 49.2 Hz (vibrations = 3.0%, smoothing ~= 0.084) To avoid too much smoothing with 'mzv', suggested max_accel <= 7100 mm/sec^2\
+Fitted shaper 'ei' frequency = 65.8 Hz (vibrations = 0.5%, smoothing ~= 0.074) To avoid too much smoothing with 'ei', suggested max_accel <= 8100 mm/sec^2\
+Fitted shaper '2hump_ei' frequency = 76.8 Hz (vibrations = 0.0%, smoothing ~= 0.091) To avoid too much smoothing with '2hump_ei', suggested max_accel <= 6600 mm/sec^2\
+Fitted shaper '3hump_ei' frequency = 93.2 Hz (vibrations = 0.0%, smoothing ~= 0.094) To avoid too much smoothing with '3hump_ei', suggested max_accel <= 6400 mm/sec^2\
+Recommended shaper is ei @ 65.8 Hz\
+
+\f0\b \cf2 pi@raspberrypi
+\f1\b0 \cf3 :
+\f0\b \cf4 ~ $
+\f1\b0 \cf3  }
