@@ -9,6 +9,15 @@ I am starting this and going forward. This means I am starting of with:
 - 1x MGN12
 - custom toolhead with Goliath hotend and Hextrudort extruder
 
+
+**Here are some of my findings:**
+- GE5C with IGUS works, more dampening
+- "improved" front idler (printed) made if worse for me compared to the aluminium (cnc'ed) idlers I had
+- Fystec carbon fiber tube (not ultra light, the one with about 77g) works just as well as Fystec ultra light aluminium x-beam (on my Voron 2.4 350mm)
+- mount point of the ADXL for measurment makes a big difference... I am using a nozzle mount for the ADXL from now on.
+- with my Voron 2.4 all panels attached makes a bit of a difference. Idealy strengthing the corners would be an option, bit it is difficult on 2.4. I am using 3 quick relase latches on each side on every panel, to get almost same effect, but keeing everything as convenient as possible. 
+
+
 ###################
 BASELINE 
 ###################
