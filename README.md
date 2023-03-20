@@ -70,9 +70,9 @@ Recommended shaper is ei @ 65.8 Hz
 ![Baseline ++ > X](data/BOWDEN_attached_resonances_x_20230317_001811.png)
 ![Baseline ++ > Y](data/BOWDEN_attached_resonances_y_20230317_002056.png)
 
-#################################################################################################################################################
-END - BASELINE
-#################################################################################################################################################
+###################
+END - BASELINE 
+###################
 
 At this point I am somewhat disappointed and determined to find the cause for my ugly graphs.
 
