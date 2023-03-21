@@ -18,6 +18,9 @@ I am starting this and going forward. This means I am starting of with:
 - with my Voron 2.4 all panels attached makes a bit of a difference. Idealy strengthing the corners would be an option, bit it is difficult on 2.4. I am using 3 quick relase latches on each side on every panel, to get almost same effect, but keeing everything as convenient as possible. 
 
 
+**The follwoing graphs are in chronological order, the top is the oldest, newest at the bottom.**
+
+
 ###################
 BASELINE 
 ###################
@@ -322,5 +325,26 @@ Recommended shaper is mzv @ 66.0 Hz
 ![ADXL mounted on nozzle > X](data/Nozzle_mount_resonances_x_20230320_212657.png)
 ![ADXL mounted on nozzle > Y](data/Nozzle_mount_resonances_y_20230320_212929.png)
 
+**increased run current from 1.0 to 1.4**
 
+X
+
+Fitted shaper 'zv' frequency = 118.8 Hz (vibrations = 22.7%, smoothing ~= 0.016)To avoid too much smoothing with 'zv', suggested max_accel <= 55000 mm/sec^2
+Fitted shaper 'mzv' frequency = 73.0 Hz (vibrations = 0.5%, smoothing ~= 0.040)To avoid too much smoothing with 'mzv', suggested max_accel <= 15700 mm/sec^2
+Fitted shaper 'ei' frequency = 98.0 Hz (vibrations = 3.2%, smoothing ~= 0.035)To avoid too much smoothing with 'ei', suggested max_accel <= 17900 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 107.2 Hz (vibrations = 0.0%, smoothing ~= 0.049)To avoid too much smoothing with '2hump_ei', suggested max_accel <= 12800 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 131.0 Hz (vibrations = 0.0%, smoothing ~= 0.050)To avoid too much smoothing with '3hump_ei', suggested max_accel <= 12600 mm/sec^2
+Recommended shaper is mzv @ 73.0 Hz
+
+Y
+
+Fitted shaper 'zv' frequency = 72.6 Hz (vibrations = 4.2%, smoothing ~= 0.036)To avoid too much smoothing with 'zv', suggested max_accel <= 20500 mm/sec^2
+Fitted shaper 'mzv' frequency = 68.0 Hz (vibrations = 0.3%, smoothing ~= 0.045)To avoid too much smoothing with 'mzv', suggested max_accel <= 13600 mm/sec^2
+Fitted shaper 'ei' frequency = 79.6 Hz (vibrations = 0.0%, smoothing ~= 0.051)To avoid too much smoothing with 'ei', suggested max_accel <= 11800 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 102.0 Hz (vibrations = 0.0%, smoothing ~= 0.054)To avoid too much smoothing with '2hump_ei', suggested max_accel <= 11600 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 125.6 Hz (vibrations = 0.0%, smoothing ~= 0.054)To avoid too much smoothing with '3hump_ei', suggested max_accel <= 11500 mm/sec^2
+Recommended shaper is mzv @ 68.0 Hz
+
+![increased run current from 1.0 to 1.4 > X](data/Higher_run_current_resonances_x_20230321_104143.png)
+![increased run current from 1.0 to 1.4 > Y](data/Higher_run_current_resonances_y_20230321_104411.png)
 
