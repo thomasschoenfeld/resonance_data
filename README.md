@@ -348,3 +348,26 @@ Recommended shaper is mzv @ 68.0 Hz
 ![increased run current from 1.0 to 1.4 > X](data/Higher_run_current_resonances_x_20230321_104143.png)
 ![increased run current from 1.0 to 1.4 > Y](data/Higher_run_current_resonances_y_20230321_104411.png)
 
+**ALPHA version Carbon Fibre ROD MOD (2023-03-22) the CF rod are a bit to small and the IGUS bushings have to much play**
+while X looks really ugly, it also is 2 magnitudes down on the scale with 1e2, while Y is 1e4.
+
+X
+
+Fitted shaper 'zv' frequency = 124.6 Hz (vibrations = 38.3%, smoothing ~= 0.015) To avoid too much smoothing with 'zv', suggested max_accel <= 60500 mm/sec^2
+Fitted shaper 'mzv' frequency = 88.4 Hz (vibrations = 21.0%, smoothing ~= 0.029) To avoid too much smoothing with 'mzv', suggested max_accel <= 23000 mm/sec^2
+Fitted shaper 'ei' frequency = 106.8 Hz (vibrations = 20.4%, smoothing ~= 0.031) To avoid too much smoothing with 'ei', suggested max_accel <= 21200 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 39.0 Hz (vibrations = 10.9%, smoothing ~= 0.355) To avoid too much smoothing with '2hump_ei', suggested max_accel <= 1500 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 85.2 Hz (vibrations = 9.9%, smoothing ~= 0.113) To avoid too much smoothing with '3hump_ei', suggested max_accel <= 5300 mm/sec^2
+Recommended shaper is zv @ 124.6 Hz
+
+Y
+
+Fitted shaper 'zv' frequency = 75.6 Hz (vibrations = 15.8%, smoothing ~= 0.033) To avoid too much smoothing with 'zv', suggested max_accel <= 22300 mm/sec^2
+Fitted shaper 'mzv' frequency = 64.6 Hz (vibrations = 2.2%, smoothing ~= 0.049) To avoid too much smoothing with 'mzv', suggested max_accel <= 12300 mm/sec^2
+Fitted shaper 'ei' frequency = 76.4 Hz (vibrations = 1.3%, smoothing ~= 0.055) To avoid too much smoothing with 'ei', suggested max_accel <= 10900 mm/sec^2
+Fitted shaper '2hump_ei' frequency = 83.2 Hz (vibrations = 0.0%, smoothing ~= 0.078) To avoid too much smoothing with '2hump_ei', suggested max_accel <= 7700 mm/sec^2
+Fitted shaper '3hump_ei' frequency = 101.2 Hz (vibrations = 0.0%, smoothing ~= 0.080) To avoid too much smoothing with '3hump_ei', suggested max_accel <= 7500 mm/sec^2
+Recommended shaper is mzv @ 64.6 Hz
+
+![CF rod mod > X](data/CF_rob_mod_resonances_x_20230322_205244.png)
+![CF rod mod > Y](data/CF_rob_mod_resonances_y_20230322_205536.png)
